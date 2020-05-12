@@ -16,10 +16,14 @@ const reducer = (state = 0, action) => {
 
 const store = createStore(reducer);
 
+const inc = () => ({ type: 'INC' });
+const dec = () => ({ type: 'DEC' });
+const rnd = () => ({ type: 'RND' });
+
 document
   .getElementById('inc')
   .addEventListener('click', () => {
-    store.dispatch({ type: 'INC' });
+    store.dispatch(inc());
   })
 
 document
