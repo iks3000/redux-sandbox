@@ -38,5 +38,5 @@
   "devDependencies": {
     "gh-pages": "^2.2.0"
   },
-  "homepage": "https://iks3000.github.io/redux-sendbox"
+  "homepage": "https://iks3000.github.io/redux-sandbox"
 }
